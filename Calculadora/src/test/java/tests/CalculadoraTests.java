@@ -9,6 +9,6 @@ public class CalculadoraTests {
     public void TesteSomar(){
         Calculadora calc = new Calculadora();
 
-        Assert.assertEquals(5.0,calc.soma(3.0,2.0),5.0);
+        Assert.assertEquals(5.0,calc.soma(3.0,2.0),0.0);
     }
 }
